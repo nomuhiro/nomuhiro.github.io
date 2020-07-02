@@ -1,0 +1,115 @@
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.sign_in {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    padding-bottom: 170px;
+}
+
+.sign_in .container {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 1px 2px 3px 2px rgba(0,0,0,0.3);
+}
+
+.sign_in .container h1 {
+    color: #2a2a2a;
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.sign_in .container input {
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2) inset;
+    font-size: 14px;
+    color: #9c9c9c;
+    padding: 8px 0 8px 10px;
+}
+
+.sign_in .container input.mail {
+    margin-bottom: 20px;
+}
+
+.container_small {
+    display: flex;
+}
+
+.container_small .text {
+    flex: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container_small .text p {
+    padding: 0;
+    margin: 0;
+    margin: 10px 0;
+}
+
+.container_small .text a {
+    font-size: 16px;
+    color: #f79d0f;
+    text-decoration: none;
+}
+
+.container_small .text a:hover {
+    text-decoration: underline;
+}
+
+.container_small a.btn {
+    display: inline-block;
+    flex: 30%;
+    max-width: 135px;
+    max-height: 35px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #f79d0f;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.container_small a.btn:hover {
+    background-color: #f3b149;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1068px) {
+    .company {
+    margin-top: 150px;
+    margin-bottom: 350px;
+    }
+    
+    .company table {
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 1068px) {
+    .company {
+    margin-top: 150px;
+    margin-bottom: 350px;
+    }
+    
+    .company table {
+        font-size: 18px;
+    }
+
+}
+

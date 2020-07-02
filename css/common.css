@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+/* 基本色 */
+;root {
+    --main-color: #04b704;
+    --accent-color: #f79d0f;
+    --dark-color: #2a2a2a;
+    --text-bright-color: #fff;
+}
+
+/* 基本設定：ページ全体 */
+
+body {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/* footer */
+
+footer {
+    color: #fff;
+    background-color: #04b704;
+}
+
+footer .container {
+    padding: 20px 20px;
+}
+
+@media (min-width: 768px) {
+    footer .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footA {
+        flex: 0 0 80%;
+    }
+    
+    .footB {
+        flex: 0 0 20%;
+    }
+    
+    .footC {
+        flex: 0 0 100%;
+    }
+}
+
+/* footerA */
+
+.footA h2 {
+    font-size: 24px;
+    margin: 0 0 0.2em 0.2em;
+    padding: 0;
+}
+
+/* footerB */
+
+.footB ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footB a {
+    display: block;
+    padding: 5px;
+    color: inherit;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footB a:hover {
+    color: #f79d0f;
+}
+
+/* footerC */
+
+.footC {
+    font-size: 12px;
+    text-align: center;
+}
+
+/* header */
+
+header {
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+
+
+/* header-toggle */
+
+.container-toggle {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headB {
+    flex: 0 0 33%;
+}
+
+.headE {
+    flex: 0 0 33%;
+}
+
+.headF {
+    flex: 0 0 33%;
+}
+
+
+/* headerA */
+
+.headA a {
+    line-height: 70px;
+    color: #04b704;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* headerB */
+
+.headB {
+    position: absolute;
+    z-index: 100;
+}
+
+.headB ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 1;
+}
+
+.headB a {
+    display: block;
+    padding: 15px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.headB a:hover {
+    color: #f79d0f;
+}
+
+/* headerC */
+
+.headC a {
+    font-size: 36px;
+    color: #f79d0f;
+}
+
+.headC a:hover {
+    opacity: 0.6;
+}
+
+/* headerD: toggle button */
+
+.headB {
+    display: none;
+}
+
+.headD {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 28px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.headD:hover {
+    opacity: 0.3;
+}

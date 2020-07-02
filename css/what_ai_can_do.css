@@ -1,0 +1,136 @@
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+.what_ai_can_do {
+    margin-top: -20px;
+}
+
+.what_ai_can_do .container {
+}
+
+.what_ai_can_do h1 {
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px 50px;;
+}
+
+.what_ai_can_do .photo {
+    min-height: 600px;
+    margin-top: -130px;
+    margin-bottom: -100px;
+    background-image: url(../img/note.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.what_ai_can_do h2 {
+    font-size: 18px;
+}
+
+.what_ai_can_do p {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.what_ai_can_do .container_small {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+}
+
+.what_ai_can_do .container_small article {
+    flex: 1 1 300px;
+}
+
+.what_ai_can_do .container_small article .text {
+    margin: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1068px) {
+    .what_ai_can_do {
+        margin-top: -25px;
+    }
+    
+    .what_ai_can_do h1 {
+        font-size: 48px;
+    }
+    
+    .what_ai_can_do .photo {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .what_ai_can_do h2 {
+        font-size: 20px;
+    }
+    
+    .what_ai_can_do p {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 1068px) {
+    .what_ai_can_do {
+        margin-top: -35px;
+    }
+    
+    .what_ai_can_do h1 {
+        font-size: 60px;
+    }
+    
+    .what_ai_can_do .photo {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .what_ai_can_do h2 {
+        font-size: 24px;
+    }
+    
+    .what_ai_can_do p {
+        font-size: 18px;
+    }
+
+}
+
+/* パンくず */
+
+.bread {
+    background-color: #19d019;
+}
+
+.bread ol {
+    display: flex;
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.bread li {
+    font-size: 0.875rem;
+    color: #fff;
+    padding: 10px 0 10px 0;
+}
+
+.bread a {
+    display: block;
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5px;
+    margin-left: -15px;
+}
+
+.bread a:hover {
+    color: #f79d0f;
+}

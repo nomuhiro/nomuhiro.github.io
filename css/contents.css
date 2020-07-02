@@ -1,0 +1,152 @@
+
+.contents {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.contents {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contents .container_small {
+    display: flex;
+    margin:  20px 0;
+}
+
+.contents .varna {
+    max-height: 26px;
+    max-width: 35px;
+    flex: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #04b704;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.contents .user {
+    max-height: 26px;
+    max-width: 35px;
+    flex: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #adb5bd;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.contents dl {
+    flex: 90%;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.contents dl dd {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1068px) {
+    .contents .varna {
+    max-height: 26px;
+    max-width: 35px;
+    font-size: 20px;
+    padding-top: 7px;
+    margin-right: 20px;
+}
+
+.contents .user {
+    max-height: 26px;
+    max-width: 35px;
+    font-size: 20px;
+    padding-top: 7px;
+    margin-right: 20px;
+}
+
+.contents dl dd {
+    font-size: 24px;
+}
+
+}
+
+@media (min-width: 1068px) {
+    .contents .varna {
+    max-height: 30px;
+    max-width: 35px;
+    font-size: 24px;
+    padding-top: 5px;
+    margin-right: 20px;
+}
+
+.contents .user {
+    max-height: 30px;
+    max-width: 35px;
+    font-size: 24px;
+    padding-top: 5px;
+    margin-right: 20px;
+}
+
+.contents dl dd {
+    font-size: 28px;
+}
+
+}
+
+.textarea_border {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    height: 65px;
+}
+
+.container_textarea {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container_textarea textarea {
+    flex: 90%;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.container_textarea .upload {
+    flex: 10%;
+    font-size: 32px;
+    color: #f79d0f;
+    
+}
+
+.container_textarea .upload a {
+    color: #f79d0f;
+}
+

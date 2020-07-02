@@ -1,0 +1,92 @@
+.mission {
+    margin-top: -20px;
+}
+
+.mission .container {
+    margin: 0;
+    padding: 0 0 280px 0;
+    background-color: #000;
+    background-image: url(../img/our-mission.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.mission h1 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mission p {
+    color: #fff;
+    max-width: 1000px;
+    width:  80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1068px) {
+    .mission {
+        margin-top: -25px;
+    }
+    
+    .mission h1 {
+        font-size: 48px;
+    }
+    
+    .mission p {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 1068px) {
+    .mission {
+        margin-top: -35px;
+    }
+    
+    .mission h1 {
+        font-size: 60px;
+    }
+    
+    .mission p {
+        font-size: 24px;
+    }
+
+}
+
+/* パンくず */
+
+.bread {
+    background-color: #19d019;
+}
+
+.bread ol {
+    display: flex;
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.bread li {
+    font-size: 0.875rem;
+    color: #fff;
+    padding: 10px 0 10px 0;
+}
+
+.bread a {
+    display: block;
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5px;
+    margin-left: -15px;
+}
+
+.bread a:hover {
+    color: #f79d0f;
+}

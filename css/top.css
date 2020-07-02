@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/* 基本色 */
+;root {
+    --main-color: #04b704;
+    --accent-color: #f79d0f;
+    --dark-color: #2a2a2a;
+    --text-bright-color: #fff;
+}
+
+
+/* コンテンツA：ヒーローイメージ */
+
+.conA {
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+
+.conA h1 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin-left: 0.1em;
+}
+
+.conA p {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18;
+}
+
+.conA a {
+    display: inline-block;
+    margin-top: 0.8em;
+    color: #f79d0f;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.conA a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) and (max-width: 1068px) {
+    .conA h1 {
+        font-size: 48px;
+    }
+    
+    .conA p {
+        font-size: 20px;
+    }
+    
+    .conA a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1068px) {
+    .conA h1 {
+        font-size: 60px;
+    }
+    
+    .conA p {
+        font-size: 24px;
+    }
+    
+    .conA a {
+        font-size: 18px;
+    }
+}
+
+/* コンテンツB：概要（画像＋テキスト） */
+
+.conB {
+    text-align: center;
+}
+
+.conB h2 {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    color: #2a2a2a;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.conB a {
+    display: inline-block;
+    color: #f79d0f;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.conB a:hover {
+    text-decoration: underline;
+}
+
+.conB .photo {
+    min-height: 600px;
+    background-image: url(../img/note.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+@media (min-width: 768px) and (max-width: 1068px) {
+    .conB h2 {
+        font-size: 48px;
+    }
+    
+    .conB a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1068px) {
+    .conB h2 {
+        font-size: 48px;
+    }
+    
+    .conB a {
+        font-size: 18px;
+        margin-bottom: 40px
+    }
+}
+
+
+@media (max-width: 600px) {
+    .conB .photo {
+        margin-top: -130px;
+    }
+}
+
+/* コンテンツC：概要（スタート） */
+
+.conC {
+    text-align: center;
+    background-color: #ececec;
+}
+
+.conC h3 {
+    font-size: 30px;
+    color: #2a2a2a;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.conC p {
+    color: #2a2a2a;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.conC a {
+    display: inline-block;
+    color: #f79d0f;
+    font-size: 14px;
+    text-decoration: none;
+    padding-bottom: 60px;
+}
+
+.conC a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) and (max-width: 1068px) {
+    .conC h3 {
+        font-size: 48px;
+    }
+    
+    .conC p {
+        font-size: 20px;
+    }
+    
+    .conA a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1068px) {
+    .conC h3 {
+        font-size: 60px;
+    }
+    
+    .conC p {
+        font-size: 24px;
+    }
+    
+    .conC a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .conC {
+        margin-top: -130px;
+    }
+}
+

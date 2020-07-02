@@ -1,0 +1,82 @@
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.free_trial {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    padding-bottom: 170px;
+}
+
+.free_trial .container {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 1px 2px 3px 2px rgba(0,0,0,0.3);
+}
+
+.free_trial .container h1 {
+    color: #2a2a2a;
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.free_trial .container .days {
+    text-align: center;
+    font-size: 24px;
+}
+
+.free_trial .container .days .number {
+    font-size: 72px;
+}
+
+.free_trial .container .text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.free_trial .container .container_small {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.free_trial .container .container_small a.trial {
+    flex: 50%;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #f79d0f;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 5px;
+}
+
+.free_trial .container .container_small a.trial:hover {
+    opacity: 0.7;
+}
+
+.free_trial .container .container_small a.registar {
+    flex: 50%;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #f79d0f;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 5px;
+}
+
+.free_trial .container .container_small a.registar:hover {
+    opacity: 0.7;
+}
