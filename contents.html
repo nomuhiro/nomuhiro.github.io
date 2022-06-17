@@ -9,6 +9,26 @@
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/contents.css">
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<style>
+iframe {
+    display: block;
+    width: 100%;
+    height: 35em;
+}
+
+@media (min-width: 768px) and (max-width: 1068px) {
+    iframe {
+    height: 40em;
+}
+}
+
+ @media (min-width: 1068px) {
+    iframe {
+    height: 45em;
+}
+}   
+</style>    
+    
 <script src="js/jquery-3.3.1.min.js"></script>
 <script>
 $(function(){
@@ -54,7 +74,6 @@ $(function(){
 
 <iframe
 allow="microphone;"
-style="display: block; width: 400px; height: 550px; margin: 50px auto 0px; "
 src="https://console.dialogflow.com/api-client/demo/embedded/d51ff87b-6d87-4ba4-b40f-916f784639f1">
 </iframe>  
     
