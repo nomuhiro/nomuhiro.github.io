@@ -1,17 +1,15 @@
 
 .contents {
     padding-top: 65px;
-    padding-bottom: 65px;
 }
 
 header {
-    border-bottom: 1px solid #ccc;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #fff;
 }
-
+/*
 .contents {
     max-width: 800px;
     margin-left: auto;
@@ -19,6 +17,7 @@ header {
     padding-left: 20px;
     padding-right: 20px;
 }
+*/
 
 .contents .container_small {
     display: flex;
