@@ -1,9 +1,9 @@
 .mission {
-    margin-top: -20px;
+    margin-top: 0px;
 }
 
 .mission .container {
-    margin: 0;
+    margin: -25px 0 0 0;
     padding: 0 0 280px 0;
     background-color: #000;
     background-image: url(../img/our-mission.jpg);
@@ -30,7 +30,7 @@
 
 @media (min-width: 768px) and (max-width: 1068px) {
     .mission {
-        margin-top: -25px;
+        margin: -40px 0 0 0;
     }
     
     .mission h1 {
@@ -45,7 +45,7 @@
 
 @media (min-width: 1068px) {
     .mission {
-        margin-top: -35px;
+        margin: -50px 0 0 0;
     }
     
     .mission h1 {
