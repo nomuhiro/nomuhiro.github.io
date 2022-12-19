@@ -9,28 +9,24 @@
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/contents.css">
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <style>
-.banner {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.banner a img {
-    width: 70%;
+.bnr {
+    width: 380px;
+    margin: 0 auto;
 }
 
 @media (min-width: 768px) and (max-width: 1068px) {
-    .banner a img {
+    .bnr {
         width: 468px;
-    }
+}
 }
 
-@media (min-width: 1068px) {
-    .banner a img {
+ @media (min-width: 1068px) {
+    .bnr{
         width: 468px;
-    }
 }
+} 
     
 iframe {
     display: block;
@@ -58,7 +54,18 @@ $(function(){
         $(".headB").slideToggle();
     });
 });
-</script>    
+</script>
+    
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script>
+$(function(){
+  $('.slider').bxSlider({
+    auto: true,
+    controls: false,
+    slideWidth: 468,
+  });
+});    
+</script>
 
 </head>
 
@@ -95,9 +102,15 @@ $(function(){
     
 <section class="contents">
     
-<div class="banner">
-<a href="https://px.a8.net/svt/ejp?a8mat=3NNG1T+43NISY+LFO+5YZ75" rel="nofollow" target="_blank">
-<img alt="アパマンショップ" src="https://www21.a8.net/svt/bgt?aid=221123585248&wid=001&eno=01&mid=s00000002778001003000&mc=1"></a>
+<div class="bnr">
+<div class="slider">
+<div><a href="https://px.a8.net/svt/ejp?a8mat=3NNG1T+43NISY+LFO+5YZ75" rel="nofollow" target="_blank">
+    <img alt="アパマンショップ" src="https://www21.a8.net/svt/bgt?aid=221123585248&wid=001&eno=01&mid=s00000002778001003000&mc=1"></a></div>
+<div><a href="https://px.a8.net/svt/ejp?a8mat=3NNG1S+CONHRM+14CS+66WOX" rel="nofollow">
+    <img alt="じゃらん" src="https://www20.a8.net/svt/bgt?aid=221123584767&wid=001&eno=01&mid=s00000005230001040000&mc=1"></a></div>
+<div><a href="https://px.a8.net/svt/ejp?a8mat=3NNJYH+B6H1PU+4HUE+5ZU29" rel="nofollow">
+    <img alt="アイデミー" src="https://www20.a8.net/svt/bgt?aid=221128649676&wid=001&eno=01&mid=s00000020975001007000&mc=1"></a></div>
+</div>
 </div>
     
 <div class="container">
